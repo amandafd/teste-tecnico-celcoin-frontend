@@ -1,3 +1,4 @@
+/* Alinhar elementos */
 .logo {
     position: absolute;
     width: 208px;
@@ -5,8 +6,6 @@
     left: 48px;
     top: 56px;
 }
-
-/* Alinhar itens */
 
 .logo__vetor {
     color: #FFFFFF;
