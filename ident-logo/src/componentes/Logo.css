@@ -1,0 +1,40 @@
+.logo {
+    position: absolute;
+    width: 208px;
+    height: 40px;
+    left: 48px;
+    top: 56px;
+}
+
+/* Alinhar itens */
+
+.logo__vetor {
+    color: #FFFFFF;
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    /*top: 8.33%;*/
+    bottom: 8.33%;
+}
+
+.logo__nome {
+    color: #FFFFFF;
+    position: absolute;
+    width: 176px;
+    height: 40px;
+    left: 80px;
+    /*top: 56px;*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.logo__nome span {
+    font-weight: 900
+}
