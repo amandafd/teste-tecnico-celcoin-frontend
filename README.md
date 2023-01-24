@@ -10,6 +10,8 @@
   <a href=""><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" align="center" alt="Badge - React" /></a>
 </p>
 
+<a href="ident-logo.vercel.app/" align="center">Link do projeto</a>
+
 <ul>
   <li><a href="#visao-geral">Visão geral</a> 
     <ul><li><a href="#o-desafio">O Desafio</a></li></ul>
