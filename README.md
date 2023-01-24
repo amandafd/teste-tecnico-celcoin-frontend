@@ -4,9 +4,10 @@
 <p align="center">
   <a href=""><img src="https://img.shields.io/badge/last%20update-jan%202023-blue" align="center" alt="Badge - last update in january  2023" /></a> 
   <a href=""><img src="https://img.shields.io/badge/status-under%20development-yellowgreen" align="center" alt="Badge status: under development" /></a>
-  <a href=""><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" align="center" alt="Badge - HTML" /></a>
-  <a href=""><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" align="center" alt="Badge - CSS" /></a>-->
+  <!--<a href=""><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" align="center" alt="Badge - HTML" /></a>-->
+  <a href=""><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" align="center" alt="Badge - CSS" /></a>
   <a href=""><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" align="center" alt="Badge - Javascript" /></a>
+  <a href=""><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" align="center" alt="Badge - React" /></a>
 </p>
 
 <ul>
@@ -29,6 +30,7 @@
 
 <h3 id="lessons-learned">Lições Aprendidas</h3>
 <ul>As lições aprendidas, assim como os conhecimentos reforçados, serão atualizadas no decorrer do desafio:
+  <li>Criar aplicações e utilização básica de React</li>
 </ul> 
 
 <h2 id="autora" align="left">Autora</h2>
