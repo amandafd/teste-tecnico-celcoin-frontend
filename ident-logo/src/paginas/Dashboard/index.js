@@ -1,12 +1,16 @@
 import InformacoesGerais from '../../componentes/InformacoesGerais';
 import HistoricoAtendimento from '../../componentes/HistoricoAtendimento';
 import './Dashboard.css';
+import TesteMaisRealizado from '../../componentes/TesteMaisRealizado';
+import AtualicacoesImportantes from '../../componentes/AtualizacoesImportantes';
 
 const Dashboard = () => {
     return (
         <div>
             <InformacoesGerais />
             <HistoricoAtendimento />
+            <TesteMaisRealizado />
+            <AtualicacoesImportantes />
         </div>    
     )
 }
