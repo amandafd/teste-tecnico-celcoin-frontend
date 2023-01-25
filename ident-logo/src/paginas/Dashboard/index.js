@@ -1,9 +1,13 @@
 import InformacoesGerais from '../../componentes/InformacoesGerais';
+import HistoricoAtendimento from '../../componentes/HistoricoAtendimento';
 import './Dashboard.css';
 
 const Dashboard = () => {
     return (
-        <InformacoesGerais />
+        <div>
+            <InformacoesGerais />
+            <HistoricoAtendimento />
+        </div>    
     )
 }
 

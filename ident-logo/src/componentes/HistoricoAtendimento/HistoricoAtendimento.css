@@ -1,10 +1,10 @@
-.tituloInformacoes {
+.tituloHistorico {
     color: #303B5B;
     position: absolute;
-    width: 192px;
+    width: 248px;
     height: 24px;
     left: 320px;
-    top: 152px;
+    top: 432px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
