@@ -1,13 +1,25 @@
-import CampoBusca from './componentes/CampoBusca';
-import Logo from './componentes/Logo';
+/*import CampoBusca from './componentes/CampoBusca';
+import Logo from './componentes/Logo';*/
 
-function App() {
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Dashboard from "./paginas/Dashboard";
+import Pacientes from "./paginas/Pacientes";
+
+
+const App = () => {
   return (
-    <div className="App">
+    <BrowserRouter>
+      <Routes>
+        <Route path="" element={<Dashboard />} />
+        <Route path="" element={<Pacientes />} />
+        <Route path="*" element={<div>Página não encontrada...</div>} />
+      </Routes>
+    </BrowserRouter>
+  )
+    /*<div className="App">
       <Logo />
       <CampoBusca />
-    </div>
-  );
+    </div>*/
 }
 
 export default App;
