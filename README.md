@@ -32,7 +32,8 @@
 
 <h3 id="lessons-learned">Lições Aprendidas</h3>
 <ul>As lições aprendidas, assim como os conhecimentos reforçados, serão atualizadas no decorrer do desafio:
-  <li>Criar aplicações e utilização básica de React</li>
+  <li>Criar aplicações em React</li>
+  <li>Criar componentes em React e como trabalhar com sua arquitetura</li>
 </ul> 
 
 <h2 id="autora" align="left">Autora</h2>

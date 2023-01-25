@@ -2,7 +2,7 @@ import "./PacienteAtualizacao.css";
 
 const PacienteAtualizacao = () => {
     return (
-
+        
     )
 }
 
