@@ -1,0 +1,10 @@
+.link {
+    color: /*#FFF*/red;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+}
+
+.linkDestacado {
+    color: #303B5B;
+}
