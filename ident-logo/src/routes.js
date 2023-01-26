@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import Logo from "./componentes/Logo";
 import MenuLateral from "./componentes/MenuLateral";
 import Dashboard from "./paginas/Dashboard";
@@ -10,8 +10,7 @@ import './App.css';
 
 function AppRoutes() {
   return (
-    
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="container">
 
         <div className="divLateral">
