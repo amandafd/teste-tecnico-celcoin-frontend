@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Logo from "./componentes/Logo";
 import MenuLateral from "./componentes/MenuLateral";
