@@ -1,43 +1,42 @@
 .campoBusca {
     position: relative;
-    left: 320px;
-    top: 56px;
+    margin-left: 2rem;
 }
 
 .campoBusca__input::placeholder {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 19px;
+    font-size: 1.25rem;
+    line-height: 1.18rem;
     color: rgba(44, 46, 61, 0.3);
 }
 
 input[type=text] {
     background: #F5F5F5;
-    width: 400px;
-    height: 40px;
+    width: 25rem;
+    height: 2.5rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.31rem;
     outline: none;
-    padding: 8px;
+    padding: 0.5rem;
     box-sizing: border-box;
 }
 
 input[type=text]::placeholder{
     color: rgba(44, 46, 61, 0.3);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.87rem;
 }
 
 .campoBusca input[type=text] {
-    padding-left: 40px;
+    padding-left: 2.5rem;
 }
 
 
 .campoBusca__icone {
     color: #787686;
     position: absolute;
-    left: 10px;
-    top: 12px;
+    left: 0.625rem;
+    top: 0.75rem;
 }
 
 

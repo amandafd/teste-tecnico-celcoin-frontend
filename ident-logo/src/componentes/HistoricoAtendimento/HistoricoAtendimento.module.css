@@ -1,0 +1,49 @@
+.historicoAtendimento {
+    width: 99.5rem;
+    height: 14.5rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.tituloHistorico {
+    color: #303B5B;
+    position: absolute;
+    width: 16rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.divHistorico {
+    background-color: #FFF;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 71rem;
+    height: 20rem;
+    margin-top: 3rem;
+}
+
+.historico {
+    width: 16.5rem;
+    height: 18rem;
+    border: 0.06rem solid rgba(237, 241, 248, 1);
+}
+
+.historicoDivImagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 16.5rem;
+}
+
+.historicoImagem {
+    position: relative;
+}
+
+.historicoIcone {
+    position: absolute;
+    z-index: 10;
+}

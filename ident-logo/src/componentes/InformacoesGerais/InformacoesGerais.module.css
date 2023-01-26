@@ -1,0 +1,31 @@
+.informacoesGerais {
+    width: 99.5rem;
+    height: 14.5rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.tituloInformacoes {
+    color: #303B5B;
+    position: absolute;
+    width: 13rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.divInformacoes {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 95.5rem;
+    margin-top: 3rem;
+}
+
+.divInformacao {
+    background-color: #FFF;
+    width: 23rem;
+    height: 11rem;
+    border-radius: 0.375rem;
+}

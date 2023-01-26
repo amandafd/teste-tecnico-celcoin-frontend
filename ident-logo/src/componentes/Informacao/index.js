@@ -1,8 +1,8 @@
-import './Informacao.css'
+
 
 const Informacao = (props) => {
     return (
-        <section className='informacao'>
+        <section>
             <div>
                 <p>{props.porcentagem}</p>
             </div>

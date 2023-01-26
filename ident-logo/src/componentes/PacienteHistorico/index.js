@@ -1,5 +1,3 @@
-import "./PacienteHistorico.css";
-
 const PacienteHistorico = (props) => {
     return (
         <section>

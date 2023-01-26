@@ -1,0 +1,73 @@
+.barra {
+    background: #FFF;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 99.5rem;
+    height: 5.5rem;
+    border-radius: 1.8rem 1.8rem 0rem 0rem;
+}
+
+.icone__settings {
+    color: #2C2E3D;
+    width: 1rem;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 17.54rem;
+    margin-right: 3.5rem;
+}
+
+.icone__notification {
+    color: #2C2E3D;
+    display: flex;
+    position: relative;
+}
+
+.icone__notificationSino {
+    color: #2C2E3D;
+    position: relative;
+    width: 0.83rem;
+    height: 1.01rem;
+}
+
+.icone__notificationCirculo {
+    color: #FF001F;
+    width: 0.375rem;
+    position: absolute;
+    top: -0.1rem;
+    left: 0.5rem;
+}
+
+.olaUsuario {
+    background: rgba(47, 68, 134, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 56px;
+    padding-left: 0.5rem;
+    border-radius: 50px;
+}
+
+.olaUsuarioTexto {
+    color: #565468;
+    font-size: 0.875rem;
+}
+
+.olaUsuarioTexto span {
+    color: #565468CC;
+}
+
+.olaUsuarioFoto {
+    width: 2.5rem;
+}
+
+.squareIcon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
