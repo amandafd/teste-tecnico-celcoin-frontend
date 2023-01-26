@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/teste-tecnico-celcoin-frontend-ident-logo/static/css/main.7fcdb52a.css",
-    "main.js": "/teste-tecnico-celcoin-frontend-ident-logo/static/js/main.3dd8fd69.js",
-    "static/media/background.png": "/teste-tecnico-celcoin-frontend-ident-logo/static/media/background.a8440c26ab15c1d2711f.png",
-    "static/media/bg-teste.png": "/teste-tecnico-celcoin-frontend-ident-logo/static/media/bg-teste.8195ff48076dd06040d2.png",
-    "index.html": "/teste-tecnico-celcoin-frontend-ident-logo/index.html",
-    "main.7fcdb52a.css.map": "/teste-tecnico-celcoin-frontend-ident-logo/static/css/main.7fcdb52a.css.map",
-    "main.3dd8fd69.js.map": "/teste-tecnico-celcoin-frontend-ident-logo/static/js/main.3dd8fd69.js.map"
+    "main.css": "/teste-tecnico-celcoin-frontend/ident-logo/static/css/main.057ce8c5.css",
+    "main.js": "/teste-tecnico-celcoin-frontend/ident-logo/static/js/main.3dd8fd69.js",
+    "static/media/background.png": "/teste-tecnico-celcoin-frontend/ident-logo/static/media/background.a8440c26ab15c1d2711f.png",
+    "static/media/bg-teste.png": "/teste-tecnico-celcoin-frontend/ident-logo/static/media/bg-teste.8195ff48076dd06040d2.png",
+    "index.html": "/teste-tecnico-celcoin-frontend/ident-logo/index.html",
+    "main.057ce8c5.css.map": "/teste-tecnico-celcoin-frontend/ident-logo/static/css/main.057ce8c5.css.map",
+    "main.3dd8fd69.js.map": "/teste-tecnico-celcoin-frontend/ident-logo/static/js/main.3dd8fd69.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fcdb52a.css",
+    "static/css/main.057ce8c5.css",
     "static/js/main.3dd8fd69.js"
   ]
 }
