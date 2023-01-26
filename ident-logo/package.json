@@ -1,7 +1,7 @@
 {
   "name": "ident-logo",
   "version": "0.1.0",
-  "homepage": "https://amandafd.github.io/teste-tecnico-celcoin-frontend-ident-logo",
+  "homepage": "https://amandafd.github.io/teste-tecnico-celcoin-frontend/ident-logo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
