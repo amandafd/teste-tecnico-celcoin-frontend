@@ -1,13 +1,16 @@
 import styles from'./HistoricoAtendimento.module.css';
 import { Icon } from '@iconify/react';
 import PacienteHistorico from '../PacienteHistorico';
+import Botao from '../Botao';
 
 const HistoricoAtendimento = () => {
     return (
         <div className={styles.historicoAtendimento}>
             <div className={styles.divTitulo}>
                 <h3 className={styles.tituloHistorico}>Histórico de atendimentos</h3>
-                <button className={styles.botaoHistorico}>VER TODOS</button>
+                <div className={styles.botaoHistorico}>
+                    <Botao nome="VER TODOS" />
+                </div>
             </div>
             <div className={styles.divHistorico}>
                 <div className={styles.historico}>

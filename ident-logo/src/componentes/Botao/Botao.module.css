@@ -1,0 +1,13 @@
+.botao {    
+    background: linear-gradient(93.05deg, #00A3FF 0%, #0057FF 100%);
+    color: #FFF;
+    position: absolute;
+    width: 6.5rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-family: 'Poppins';
+    font-size: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 0.06rem;
+}

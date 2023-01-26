@@ -1,5 +1,6 @@
 import styles from './TesteMaisRealizado.module.css';
 import { Icon } from '@iconify/react';
+import Botao from '../Botao';
 
 const TesteMaisRealizado = () => {
     return (
@@ -8,7 +9,7 @@ const TesteMaisRealizado = () => {
                 <h3 className={styles.tituloTeste}>Teste mais realizado</h3>
             </div>
             <div className={styles.divTeste}>
-                <div className={styles.testeDivImagem}>
+                <div className={styles.testeDivIcone}>
                     <Icon icon="uil:cell" width="93.43" className={styles.testeIcone} />
                 </div>
                 <div className={styles.infoTestes}>
@@ -16,7 +17,9 @@ const TesteMaisRealizado = () => {
                     <p>LICENÇAS DISPONÍVEIS</p>
                     <div>
                         <p>13</p>
-                        <button>COMPRAR MAIS</button>
+                        <div>
+                            <Botao nome="COMPRAR MAIS" />
+                        </div>
                     </div>
                 </div>
             </div>
