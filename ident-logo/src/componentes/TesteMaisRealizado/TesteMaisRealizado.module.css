@@ -1,0 +1,50 @@
+.testeMaisRealizado {
+    width: 23rem;
+    height: 23rem;
+}
+
+.divTitulo {
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tituloTeste {
+    color: #303B5B;
+    position: absolute;
+    width: 16rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.divTeste {
+    background-image: url(../../assets/imagens/bg-teste.png);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 23rem;
+    height: 20rem;
+    
+}
+
+.testeDivImagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 16.5rem;
+    height: 11.5rem;
+}
+
+.testeIcone {
+    position: absolute;
+    z-index: 10;
+}
+
+.infoTestes {
+    height: 8.5rem;
+}

@@ -1,0 +1,19 @@
+.informacoesGeraisDash {
+    margin-top: 2rem;
+}
+
+.divHistoricoTeste {
+    display: flex;
+    width: 99.5rem;
+    height: 23rem;
+    padding: 0 2rem;
+    margin-top: 3rem ;
+}
+
+.testeMaisRealizadoDash {
+    margin-left: 1rem;
+}
+
+.atualizacoesImportantesDash {
+    margin-top: 3rem;
+}

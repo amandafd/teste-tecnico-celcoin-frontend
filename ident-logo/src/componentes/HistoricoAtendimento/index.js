@@ -5,7 +5,10 @@ import PacienteHistorico from '../PacienteHistorico';
 const HistoricoAtendimento = () => {
     return (
         <div className={styles.historicoAtendimento}>
-            <h3 className={styles.tituloHistorico}>Histórico de atendimentos</h3>
+            <div className={styles.divTitulo}>
+                <h3 className={styles.tituloHistorico}>Histórico de atendimentos</h3>
+                <button className={styles.botaoHistorico}>VER TODOS</button>
+            </div>
             <div className={styles.divHistorico}>
                 <div className={styles.historico}>
                     <div className={styles.historicoDivImagem}>

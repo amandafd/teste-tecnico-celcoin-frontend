@@ -31,7 +31,6 @@ const InformacoesGerais = () => {
                 </div>
             </div>
         </div>
-       
     )
 }
 
