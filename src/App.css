@@ -32,7 +32,7 @@
 
 
 hr {
-    color: #FFFFFF1A;
+    border-color: hsla(0, 0%, 100%, 0.1);
     width: 14rem;
     height: 0.06rem;
     margin-top: 1.4rem;
