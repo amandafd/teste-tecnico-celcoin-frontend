@@ -3,11 +3,13 @@
     display: flex;
     width: 13rem;
     height: 2.5rem;
+    align-items: center;
 }
 
 .logo__vetor {
     color: #FFFFFF;
-
+    width: 2rem;
+    height: 2rem;
 }
 
 .logo__nome {
