@@ -1,6 +1,5 @@
 .campoBusca {
     position: relative;
-    margin-left: 2rem;
 }
 
 .campoBusca__input::placeholder {
