@@ -1,16 +1,13 @@
 /* Alinhar elementos */
 .logo {
     display: flex;
-    position: absolute;
     width: 13rem;
     height: 2.5rem;
 }
 
 .logo__vetor {
     color: #FFFFFF;
-    left: 8.33%;
-    right: 8.33%;
-    bottom: 8.33%;
+
 }
 
 .logo__nome {
