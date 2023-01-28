@@ -1,4 +1,5 @@
 import styles from "./HistoricoAtendimento.module.css";
+import bgHistorico from "../../assets/imagens/bg-historico-1.png"
 import IconeCell from "../IconeCell";
 import IconeBrain from "../IconeBrain";
 import PacienteHistorico from "../PacienteHistorico";
@@ -17,11 +18,11 @@ const HistoricoAtendimento = () => {
         <div className={styles.historico}>
           <div className={styles.historicoDivImagem}>
             <img
-              src="/imagens/bg-historico-1.png"
+              src={bgHistorico}
               alt="Imagem de fundo"
               className={styles.historicoImagem}
             />
-            <IconeBrain width="3.75rem"/>
+            <IconeBrain width="3.75rem" />
           </div>
           <PacienteHistorico
             nome="Renata Augusto Ferreira"
@@ -32,7 +33,7 @@ const HistoricoAtendimento = () => {
         <div className={styles.historico}>
           <div className={styles.historicoDivImagem}>
             <img
-              src="/imagens/bg-historico-1.png"
+              src={bgHistorico}
               alt="Imagem de fundo"
               className={styles.historicoImagem}
             />
@@ -47,11 +48,11 @@ const HistoricoAtendimento = () => {
         <div className={styles.historico}>
           <div className={styles.historicoDivImagem}>
             <img
-              src="/imagens/bg-historico-1.png"
+              src={bgHistorico}
               alt="Imagem de fundo"
               className={styles.historicoImagem}
             />
-            <IconeBrain width="3.75rem"/>
+            <IconeBrain width="3.75rem" />
           </div>
           <PacienteHistorico
             nome="Renata Augusto Ferreira"
@@ -62,7 +63,7 @@ const HistoricoAtendimento = () => {
         <div className={styles.historico}>
           <div className={styles.historicoDivImagem}>
             <img
-              src="/imagens/bg-historico-1.png"
+              src={bgHistorico}
               alt="Imagem de fundo"
               className={styles.historicoImagem}
             />

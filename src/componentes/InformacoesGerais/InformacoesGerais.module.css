@@ -1,7 +1,5 @@
 .informacoesGerais {
-  width: 99.5rem;
   height: 14.5rem;
-  padding: 0 2rem;
 }
 
 .tituloInformacoes {
@@ -25,9 +23,45 @@
 
 .divInformacao {
   background-color: #fff;
+  position: relative;
   width: 23rem;
   height: 11rem;
+  padding: 1.5rem 1.25rem 1.8rem 1rem;
   border-radius: 0.375rem;
+  box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.08);
+}
+
+.divIconePorcentagem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.porcentagemNegativa {
+  background-color: hsla(349, 90%, 49%, 1);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 1.5rem;
+  border-radius: 1.25rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.porcentagemPositiva {
+  background-color: hsla(158, 75%, 43%, 1);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 1.5rem;
+  border-radius: 1.25rem;
+  font-size: 0.625rem;
+  font-weight: 600;
 }
 
 .informacaoDivIconeAtivos,
@@ -36,9 +70,21 @@
 }
 
 .informacaoDivIconeConcluidos {
-    color: rgba(28, 191, 132, 1);
+  color: rgba(28, 191, 132, 1);
 }
 
 .informacaoDivIconeCancelados {
-    color: rgba(239, 12, 53, 1);
+  color: rgba(239, 12, 53, 1);
+}
+
+.iconeCheck {
+  position: absolute;
+  top: 1.04rem;
+  left: 0.6rem;
+}
+
+.iconeClose {
+  position: absolute;
+  top: 1.25rem;
+  left: 0.9rem;
 }

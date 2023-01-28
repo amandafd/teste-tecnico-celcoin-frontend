@@ -6,7 +6,7 @@ import AtualizacoesImportantes from '../../componentes/AtualizacoesImportantes';
 
 const Dashboard = () => {
     return (
-        <div>
+        <div className={styles.dashboard}>
             <div className={styles.informacoesGeraisDash}>
             <InformacoesGerais />
             </div>

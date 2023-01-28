@@ -1,12 +1,10 @@
-.informacoesGeraisDash {
-    margin-top: 2rem;
+.dashboard {
+    padding: 2rem 2rem 1.5rem 2rem;
 }
 
 .divHistoricoTeste {
     display: flex;
-    width: 99.5rem;
     height: 23rem;
-    padding: 0 2rem;
     margin-top: 3rem ;
 }
 
