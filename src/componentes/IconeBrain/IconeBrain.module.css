@@ -1,0 +1,8 @@
+.gradientBrain {
+    width: 0rem;
+    height: 0rem;
+}
+
+.iconeBrain path {
+    fill: url(#gradientB);
+}

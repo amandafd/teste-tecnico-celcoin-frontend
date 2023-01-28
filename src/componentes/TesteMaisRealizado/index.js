@@ -1,16 +1,18 @@
 import styles from './TesteMaisRealizado.module.css';
-import { Icon } from '@iconify/react';
 import Botao from '../Botao';
+import IconeCell from '../IconeCell';
 
 const TesteMaisRealizado = () => {
     return (
+        
         <div className={styles.testeMaisRealizado}>
+            
             <div className={styles.divTitulo}>
                 <h3 className={styles.tituloTeste}>Teste mais realizado</h3>
             </div>
             <div className={styles.divTeste}>
                 <div className={styles.testeDivIcone}>
-                    <Icon icon="uil:cell" width="93.43" className={styles.testeIcone} />
+                    <IconeCell width="5.8rem"/>
                 </div>
                 <div className={styles.infoTestes}>
                     <p>Autismo</p>

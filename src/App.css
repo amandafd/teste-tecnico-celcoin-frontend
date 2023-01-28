@@ -1,9 +1,10 @@
 .container {
+    background: linear-gradient(107.65deg, #1042DD 0.43%, #24B0A8 100%);
     position: relative;
     display: flex;
+    align-items: center;
     height: 100vh;
-    background: linear-gradient(107.65deg, #1042DD 0.43%, #24B0A8 100%);
-    z-index:2 
+    padding: 2rem 2.5rem;
 }
   
 .container::before {
@@ -23,12 +24,9 @@
 
 .divLateral {
     display: flex;
-    position: absolute;
-    justify-content: center;
     width: 18rem;
-    height: 100%;
-    top: 0rem;
-    left: 0rem;
+    height: 63.5rem; 
+    margin-top: 1em;
 }
 
 
@@ -44,12 +42,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
     width: 99.6rem;
     height: 63.5rem;
-    left: 18rem;
-    top: 2rem;
     border-radius: 1.8rem;
 }
-
-

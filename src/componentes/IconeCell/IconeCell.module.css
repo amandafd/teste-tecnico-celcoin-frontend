@@ -1,0 +1,8 @@
+.gradientCell {
+    width: 0rem;
+    height: 0rem;
+}
+
+.iconeCell path {
+    fill: url(#gradientC);
+}
