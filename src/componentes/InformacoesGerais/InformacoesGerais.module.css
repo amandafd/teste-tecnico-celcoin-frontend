@@ -1,89 +1,90 @@
-.informacoesGerais {
+.infoGerais {
   height: 14.5rem;
 }
 
-.tituloInformacoes {
-  color: #303b5b;
-  position: absolute;
+.infoGerais__titulo {
   width: 13rem;
   height: 1.5rem;
+  color: #303b5b;
+  margin-bottom: 1.5rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
 }
 
-.divTodasInformacoes {
-  display: flex;
-  position: absolute;
+.infoGerais__todasInfo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
   justify-content: space-between;
-  width: 95.5rem;
   margin-top: 3rem;
 }
 
-.divInformacao {
+.infoGerais__info {
+  width: 100%;
+  height: 11rem;
   background-color: #fff;
   position: relative;
-  width: 23rem;
-  height: 11rem;
   padding: 1.5rem 1.25rem 1.8rem 1rem;
   border-radius: 0.375rem;
   box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.08);
 }
 
-.divIconePorcentagem {
+.infoGerais__iconePorcentagem {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.porcentagemNegativa {
+.infoGerais__porcentagemNegativa {
+  width: 3.5rem;
+  height: 1.5rem;
   background-color: hsla(349, 90%, 49%, 1);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.5rem;
-  height: 1.5rem;
   border-radius: 1.25rem;
   font-size: 0.625rem;
   font-weight: 600;
 }
 
-.porcentagemPositiva {
+.infoGerais__porcentagemPositiva {
+  width: 3.5rem;
+  height: 1.5rem;
   background-color: hsla(158, 75%, 43%, 1);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.5rem;
-  height: 1.5rem;
   border-radius: 1.25rem;
   font-size: 0.625rem;
   font-weight: 600;
 }
 
-.informacaoDivIconeAtivos,
-.informacaoDivIconeRealizados {
+.infoGerais__iconeAtivos,
+.infoGerais__iconeRealizados {
   color: rgba(0, 87, 255, 1);
 }
 
-.informacaoDivIconeConcluidos {
+.infoGerais__iconeConcluidos {
   color: rgba(28, 191, 132, 1);
 }
 
-.informacaoDivIconeCancelados {
+.infoGerais__iconeCancelados {
   color: rgba(239, 12, 53, 1);
 }
 
-.iconeCheck {
+.infoGerais__iconeCheck {
   position: absolute;
   top: 1.04rem;
   left: 0.6rem;
 }
 
-.iconeClose {
+.infoGerais__iconeClose {
   position: absolute;
   top: 1.25rem;
   left: 0.9rem;

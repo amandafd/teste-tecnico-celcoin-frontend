@@ -1,4 +1,9 @@
-.numero {
+.info__sectionPorcentagem {
+ height: 100%;
+ height: 100%;
+}
+
+.info__numero {
   color: hsla(225, 31%, 27%, 1);
   display: flex;
   align-items: center;
@@ -8,7 +13,7 @@
   font-weight: 600;
 }
 
-.nome {
+.info__nome {
   color: hsla(225, 31%, 27%, 1);
   margin-top: 0.5rem;
   font-size: 1rem;
