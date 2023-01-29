@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/teste-tecnico-celcoin-frontend/static/css/main.1aceafff.css",
-    "main.js": "/teste-tecnico-celcoin-frontend/static/js/main.f8728b3b.js",
+    "main.css": "/teste-tecnico-celcoin-frontend/static/css/main.3a8f0e78.css",
+    "main.js": "/teste-tecnico-celcoin-frontend/static/js/main.fa48ae55.js",
     "static/media/background.png": "/teste-tecnico-celcoin-frontend/static/media/background.a8440c26ab15c1d2711f.png",
     "static/media/bg-teste.png": "/teste-tecnico-celcoin-frontend/static/media/bg-teste.8195ff48076dd06040d2.png",
     "index.html": "/teste-tecnico-celcoin-frontend/index.html",
-    "main.1aceafff.css.map": "/teste-tecnico-celcoin-frontend/static/css/main.1aceafff.css.map",
-    "main.f8728b3b.js.map": "/teste-tecnico-celcoin-frontend/static/js/main.f8728b3b.js.map"
+    "main.3a8f0e78.css.map": "/teste-tecnico-celcoin-frontend/static/css/main.3a8f0e78.css.map",
+    "main.fa48ae55.js.map": "/teste-tecnico-celcoin-frontend/static/js/main.fa48ae55.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aceafff.css",
-    "static/js/main.f8728b3b.js"
+    "static/css/main.3a8f0e78.css",
+    "static/js/main.fa48ae55.js"
   ]
 }
