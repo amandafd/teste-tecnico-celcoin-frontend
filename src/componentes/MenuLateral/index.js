@@ -4,7 +4,7 @@ import MenuLink from '../MenuLink';
 
 const MenuLateral = () => {
     return(
-        <nav className={styles.navegacao}>
+        <nav className={styles.menuLNav}>
             <ul>
                 <li >
                     <MenuLink  to="/" className={styles.itemMenu}>

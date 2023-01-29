@@ -1,5 +1,8 @@
-.navegacao {
+.menuLNav {
+    
+    display: flex;
     position: relative;
+    justify-content: flex-end;
 }
 
 li {

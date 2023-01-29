@@ -10,21 +10,33 @@ import "./App.css";
 function AppRoutes() {
   return (
     <BrowserRouter basename="/">
-      <div className="container">
-        <div className="divLateral">
-          {/*<Logo />*/}
-          {/*<hr />*/}
-          {/*{/*<MenuLateral className="principal__menuLateral" />*/}
+      <div className="appContainer">
+        <div className="appLateral">
+          <div className="appLogo">
+            <Logo />
+          </div>
+          <hr className="appMenu" />
+          <MenuLateral />
         </div>
 
-        <div className="container__conteudo">
-          {/*<BarraSuperior />*/}
-          <Routes>
-            <Route path="" element={<Dashboard />} />
-            <Route path="/pacientes" element={<Pacientes />} />
-            <Route path="*" element={<div>Página não encontrada ou em manutenção...</div>}
-            />
-          </Routes>
+        <div className="appQuadro">
+          <div className="appBarra">
+            <BarraSuperior />
+          </div>
+          <div className="appConteudo">
+            <Routes>
+              <Route path="" element={<Dashboard />} />
+              <Route path="/pacientes" element={<Pacientes />} />
+              <Route
+                path="*"
+                element={
+                  <div className="appPagina">
+                    Página não encontrada ou em manutenção...
+                  </div>
+                }
+              />
+            </Routes>
+          </div>
         </div>
       </div>
     </BrowserRouter>

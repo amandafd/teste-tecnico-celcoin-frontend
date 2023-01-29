@@ -1,8 +1,17 @@
 .link {
-    color: #FFF;
-    text-decoration: none;
+  color: #fff;
+  width: 15.5rem;
+  height: 6.5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1.4rem;
+  text-decoration: none;
 }
 
 .linkDestacado {
-    color: #303B5B;
+  background-image: url("../../assets/imagens/bg-menu.png");
+  color: #303b5b;
+  width: 15.5rem;
+  display: flex;
+  height: 6.5rem;
 }
