@@ -8,18 +8,18 @@ const Dashboard = () => {
     return (
         <div className={styles.dashboard}>
             <div className={styles.informacoesGeraisDash}>
-            <InformacoesGerais />
+            {/*<InformacoesGerais />*/}
             </div>
             <div className={styles.divHistoricoTeste}>
-                <HistoricoAtendimento />
+                {/*<HistoricoAtendimento />*/}
                 <div className={styles.testeMaisRealizadoDash}>
-                    <TesteMaisRealizado />
+                    {/*<TesteMaisRealizado />*/}
                 </div>
             </div>
             <div className={styles.atualizacoesImportantesDash}>
-                <AtualizacoesImportantes />
+                {/*<AtualizacoesImportantes />*/}
             </div>
-        </div>    
+    </div>    
     )
 }
 

@@ -12,13 +12,13 @@ function AppRoutes() {
     <BrowserRouter basename="/">
       <div className="container">
         <div className="divLateral">
-          <Logo />
-          <hr />
-          <MenuLateral className="principal__menuLateral" />
+          {/*<Logo />*/}
+          {/*<hr />*/}
+          {/*{/*<MenuLateral className="principal__menuLateral" />*/}
         </div>
 
         <div className="container__conteudo">
-          <BarraSuperior />
+          {/*<BarraSuperior />*/}
           <Routes>
             <Route path="" element={<Dashboard />} />
             <Route path="/pacientes" element={<Pacientes />} />
