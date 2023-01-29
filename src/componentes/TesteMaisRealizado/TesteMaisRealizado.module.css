@@ -3,7 +3,7 @@
     height: 23rem;
 }
 
-.divTitulo {
+.titulo {
     display: flex;
     align-items: center;
     height: 1.5rem;
@@ -40,6 +40,19 @@
     height: 11.5rem;
 }
 
-.infoTestes {
-    height: 8.5rem;
+.autismo,
+.numero {
+    color: rgba(48, 59, 91, 1);
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+
+.licencas {
+    color: rgba(48, 59, 91, 0.3);
+    font-size: 0.625rem;
+    font-weight: 700;
+}
+
+.numeroComprar {
+    display: flex;
 }

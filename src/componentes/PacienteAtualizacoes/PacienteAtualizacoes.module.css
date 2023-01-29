@@ -1,0 +1,25 @@
+.paciente,
+.data {
+    color: rgba(48, 59, 91, 0.3);
+    font-size: 0.625rem;
+    font-weight: 700;
+
+}
+
+.nome {
+    color: rgba(48, 59, 91, 1);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.oTeste {
+    
+}
+
+.completouCancelou {
+    
+}
+
+.teste {
+    
+}

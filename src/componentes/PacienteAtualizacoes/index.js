@@ -1,13 +1,16 @@
+import styles from "./PacienteAtualizacoes.module.css";
+
 const PacienteAtualicoes = (props) => {
-    return (
-        <section>
-        <p>PACIENTE</p>
-        <p>{props.nome}</p>
-        <p>{props.completouCancelou} O TESTE: <span>{props.teste}</span></p>
-        <p>REALIZADO EM: {props.data}</p>
+  return (
+    <section>
+      <p className={styles.paciente}>PACIENTE</p>
+      <p className={styles.nome}>{props.nome}</p>
+      <p className={styles.oTeste}>
+        {props.completouCancelou} O TESTE: <span className={styles.teste}>{props.teste}</span>
+      </p>
+      <p className={styles.paciente}>REALIZADO EM: {props.data}</p>
     </section>
-    )
-    
-}
+  );
+};
 
 export default PacienteAtualicoes;

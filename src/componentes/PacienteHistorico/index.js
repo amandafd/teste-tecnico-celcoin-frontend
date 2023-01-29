@@ -1,11 +1,13 @@
+import styles from './PacienteHistorico.module.css';
+
 const PacienteHistorico = (props) => {
     return (
-        <section>
-            <p>{props.nome}</p>
-            <p>TESTE REALIZADO</p>
-            <p>{props.teste}</p>
-            <p>REALIZADO EM:</p>
-            <p>{props.data}</p>
+        <section className={styles.pacienteHistorico}>
+            <p className={styles.nomeHistorico}>{props.nome}</p>
+            <p className={styles.testeRealizadoHistorico}>TESTE REALIZADO</p>
+            <p className={styles.testeHistorico}>{props.teste}</p>
+            <p className={styles.realizadoEmHistorico}>REALIZADO EM:</p>
+            <p className={styles.dataHistorico}>{props.data}</p>
         </section>
     )
 }

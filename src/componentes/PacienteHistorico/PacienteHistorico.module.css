@@ -1,0 +1,19 @@
+.nomeHistorico {
+    color: rgba(48, 59, 91, 1);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.testeRealizadoHistorico,
+.realizadoEmHistorico {
+    color: rgba(48, 59, 91, 0.3);
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.testeHistorico,
+.dataHistorico {
+    color: rgba(48, 59, 91, 1);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
