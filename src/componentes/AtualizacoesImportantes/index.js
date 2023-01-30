@@ -8,12 +8,12 @@ const AtualizacoesImportantes = () => {
   return (
     <div className={styles.atualizacoesImportantes}>
       <h3 className={styles.atualizacoes__titulo}>Atualizações Importantes</h3>
-      <div className={styles.divAtualizacoes}>
-        <div className={styles.divAtualizacao}>
-          <div className={styles.fotoPaciente}>
+      <div className={styles.atualizacoes__atualizacoes}>
+        <div className={styles.atualizacoes__atualizacao}>
+          <div className={styles.atualizacoes__atualizacoes__fotoPaciente}>
             <img src={Renata} alt="Foto do usuário" />
           </div>
-          <div className={styles.infoPaciente}>
+          <div className={styles.atualizacoes__atualizacoes__infoPaciente}>
             <PacienteAtualicoes
               nome="Renata Augusto Ferreira"
               color="#1EAC79"
@@ -23,11 +23,11 @@ const AtualizacoesImportantes = () => {
             />
           </div>
         </div>
-        <div className={styles.divAtualizacao}>
-          <div className={styles.fotoPaciente}>
+        <div className={styles.atualizacoes__atualizacao}>
+          <div className={styles.atualizacoes__fotoPaciente}>
             <img src={Carlos} alt="Foto do usuário" />
           </div>
-          <div className={styles.infoPaciente}>
+          <div className={styles.atualizacoes__infoPaciente}>
             <PacienteAtualicoes
               nome="Carlos Nobre Baccio"
               color="#EF0C35"
@@ -37,12 +37,12 @@ const AtualizacoesImportantes = () => {
             />
           </div>
         </div>
-        <div className={styles.divAtualizacao}>
-          <div className={styles.fotoPaciente}>
+        <div className={styles.atualizacoes__atualizacao}>
+          <div className={styles.atualizacoes__fotoPaciente}>
             <img src={Suelton} alt="Foto do usuário" />
           </div>
-          <div className={styles.infoPaciente}>
-            <div className={styles.infoPaciente}>
+          <div className={styles.atualizacoes__infoPaciente}>
+            <div className={styles.atualizacoes__infoPaciente}>
               <PacienteAtualicoes
                 nome="Suelton A. Mellis"
                 color="#EF0C35"

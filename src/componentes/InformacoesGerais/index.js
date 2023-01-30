@@ -34,7 +34,7 @@ const InformacoesGerais = () => {
 
         <div className={styles.infoGerais__info}>
           <div className={styles.infoGerais__iconePorcentagem}>
-            <div className={styles.infoGerais__coneConcluidos}>
+            <div className={styles.infoGerais__iconeConcluidos}>
               <Icon
                 icon="material-symbols:check-small-rounded"
                 width="1.5rem"
