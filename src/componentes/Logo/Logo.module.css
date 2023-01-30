@@ -1,25 +1,25 @@
 .logo {
-  display: flex;
   width: 13rem;
   height: 2.5rem;
+  display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .logVetor {
-  color: #ffffff;
   width: 2rem;
   height: 2rem;
+  color: #ffffff;
 }
 
 .logoNome {
   color: #ffffff;
+  display: flex;
+  align-items: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
-  display: flex;
-  align-items: center;
   letter-spacing: 1px;
 }
 
