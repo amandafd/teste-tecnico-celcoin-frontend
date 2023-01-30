@@ -16,8 +16,8 @@ const Dashboard = () => {
           <TesteMaisRealizado />
         </div>
       </div>
-      <div className={styles.atualizacoesImportantesDash}>
-        {/*<AtualizacoesImportantes />*/}
+      <div>
+        <AtualizacoesImportantes />
       </div>
     </div>
   );

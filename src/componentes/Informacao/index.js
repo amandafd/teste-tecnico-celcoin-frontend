@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 const Informacao = (props) => {
   return (
     <><section><p className={styles.info__porcentagem}>{props.porcentagem}</p></section>
-    <section className={styles.info__section}>
+    <section>
       <Icon icon={props.icon} />
       <p className={styles.info__numero}>{props.numero}</p>
       <p className={styles.info__nome}>{props.nome}</p>

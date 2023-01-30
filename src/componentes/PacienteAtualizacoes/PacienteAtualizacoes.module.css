@@ -3,11 +3,24 @@
     color: rgba(48, 59, 91, 0.3);
     font-size: 0.625rem;
     font-weight: 700;
+}
 
+.paciente {
+    padding-bottom: 0.5rem;
 }
 
 .nome {
     color: rgba(48, 59, 91, 1);
+    padding-bottom: 0.5rem;
     font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.oTeste {
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+}
+
+.teste {
     font-weight: 600;
 }
