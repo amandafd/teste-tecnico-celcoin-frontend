@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
 import Dashboard from "./paginas/Dashboard";
 import Pacientes from "./paginas/Pacientes";
 import Logo from "./componentes/Logo";
 import MenuLateral from "./componentes/MenuLateral";
 import BarraSuperior from "./componentes/BarraSuperior";
-import "./App.css";
+
 
 function AppRoutes() {
   return (

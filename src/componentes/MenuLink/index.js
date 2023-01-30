@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const MenuLink = ({children, to}) => {
     return (
-        <div className={styles.divNavLink}>
+        <div>
             <NavLink
             className={({ isActive }) => `
                 ${styles.link}

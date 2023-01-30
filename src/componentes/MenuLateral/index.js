@@ -7,21 +7,21 @@ const MenuLateral = () => {
         <nav className={styles.menuLNav}>
             <ul>
                 <li >
-                    <MenuLink  to="/" className={styles.itemMenu}>
+                    <MenuLink  to="/">
                         <Icon icon="typcn:home-outline" width="18" /> Dashboard
                     </MenuLink>
                 </li>
-                <li className={styles.itemMenu}>
+                <li>
                     <MenuLink to="/pacientes">
                         <Icon icon="gridicons:product-downloadable" width="18" /> Pacientes
                     </MenuLink>
                 </li>
-                <li className={styles.itemMenu}>
+                <li>
                     <MenuLink to="/testes">
                         <Icon icon="gridicons:product-downloadable" width="18" /> Testes
                     </MenuLink>
                 </li>  
-                <li className={styles.itemMenu}>
+                <li>
                     <MenuLink to="/configuracoes">
                         <Icon icon="gridicons:product-downloadable" width="18" /> Configurações
                     </MenuLink>
