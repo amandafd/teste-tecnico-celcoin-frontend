@@ -1,61 +1,56 @@
 .historicoAtendimento {
-    width: 71rem;
-    height: 23rem;
+  width: 100%;
+  height: 23rem;
 }
 
 .divTitulo {
-    display: flex;
-    align-items: center;
-    height: 1.5rem;
-    margin-bottom: 1.5rem;
+  display: flex;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.tituloHistorico {
-    color: #303B5B;
-    position: absolute;
-    width: 16rem;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.125rem;
+.historico__titulo {
+  width: 16rem;
+  height: 1.5rem;
+  color: #303b5b;
+  margin-bottom: 1.5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
 }
 
-.botaoHistorico {
-    display: flex;
-    align-items: center;
-    margin-left: 16rem;
+.historico__botao {
+  display: flex;
+  align-items: center;
 }
 
-.divHistorico {
-    background-color: #FFF;
-    display: flex;
-    position: absolute;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 71rem;
-    height: 20rem;
-    
+.historicos {
+  width: 100%;
+  height: 20rem;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.08);
 }
 
 .historico {
-    width: 16.5rem;
-    height: 18rem;
-    border: 0.06rem solid rgba(237, 241, 248, 1);
+  width: 100%;
+  height: 18rem;
+  border: 0.06rem solid rgba(237, 241, 248, 1);
 }
 
-.historicoDivImagem {
-    display: grid;
-    grid-template-rows: auto auto;
-    align-items: center;
-    justify-content: space-around;
-    height: 8.5rem;
-}
-
-.historicoImagem {
-    position: absolute;
-}
-
-.historicoIcone {
-    position: absolute;
-    z-index: 10;
+.historico__imagemIcone {
+  width: 100%;
+  height: 8.5rem;
+  background-image: url("../../assets/imagens/bg-historico-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

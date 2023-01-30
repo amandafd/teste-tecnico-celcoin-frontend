@@ -1,9 +1,15 @@
-/*.divHistoricoTeste {
-    display: flex;
-    height: 23rem;
-    margin-top: 3rem ;
+.dashboard {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 3rem;
+}
+.dashboard__historicoTeste {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
 }
 
+/*
 .testeMaisRealizadoDash {
     margin-left: 1rem;
 }

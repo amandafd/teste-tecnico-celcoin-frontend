@@ -7,13 +7,13 @@ import AtualizacoesImportantes from "../../componentes/AtualizacoesImportantes";
 const Dashboard = () => {
   return (
     <div className={styles.dashboard}>
-      <div className={styles.informacoesGeraisDash}>
+      <div>
         <InformacoesGerais />
       </div>
-      <div className={styles.divHistoricoTeste}>
-        {/*<HistoricoAtendimento />*/}
+      <div className={styles.dashboard__historicoTeste}>
+        <HistoricoAtendimento />
         <div className={styles.testeMaisRealizadoDash}>
-          {/*<TesteMaisRealizado />*/}
+          <TesteMaisRealizado />
         </div>
       </div>
       <div className={styles.atualizacoesImportantesDash}>

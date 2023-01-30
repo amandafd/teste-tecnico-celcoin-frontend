@@ -6,9 +6,8 @@ const TesteMaisRealizado = () => {
     return (
         
         <div className={styles.testeMaisRealizado}>
-            
-            <div className={styles.titulo}>
-                <h3 className={styles.tituloTeste}>Teste mais realizado</h3>
+            <div className={styles.teste__titulo}>
+                <h3 >Teste mais realizado</h3>
             </div>
             <div className={styles.divTeste}>
                 <div className={styles.testeDivIcone}>

@@ -19,7 +19,6 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
   justify-content: space-between;
-  margin-top: 3rem;
 }
 
 .infoGerais__info {

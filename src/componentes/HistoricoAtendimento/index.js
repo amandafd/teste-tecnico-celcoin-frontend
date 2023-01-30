@@ -1,5 +1,4 @@
 import styles from "./HistoricoAtendimento.module.css";
-import bgHistorico from "../../assets/imagens/bg-historico-1.png"
 import IconeCell from "../IconeCell";
 import IconeBrain from "../IconeBrain";
 import PacienteHistorico from "../PacienteHistorico";
@@ -9,19 +8,14 @@ const HistoricoAtendimento = () => {
   return (
     <div className={styles.historicoAtendimento}>
       <div className={styles.divTitulo}>
-        <h3 className={styles.tituloHistorico}>Histórico de atendimentos</h3>
-        <div className={styles.botaoHistorico}>
+        <h3 className={styles.historico__titulo}>Histórico de atendimentos</h3>
+        <div className={styles.historico__botao}>
           <Botao nome="VER TODOS" />
         </div>
       </div>
-      <div className={styles.divHistorico}>
+      <div className={styles.historicos}>
         <div className={styles.historico}>
-          <div className={styles.historicoDivImagem}>
-            <img
-              src={bgHistorico}
-              alt="Imagem de fundo"
-              className={styles.historicoImagem}
-            />
+          <div className={styles.historico__imagemIcone}>
             <IconeBrain width="3.75rem" />
           </div>
           <PacienteHistorico
@@ -31,12 +25,7 @@ const HistoricoAtendimento = () => {
           />
         </div>
         <div className={styles.historico}>
-          <div className={styles.historicoDivImagem}>
-            <img
-              src={bgHistorico}
-              alt="Imagem de fundo"
-              className={styles.historicoImagem}
-            />
+          <div className={styles.historico__imagemIcone}>
             <IconeCell width="3.75rem" />
           </div>
           <PacienteHistorico
@@ -46,12 +35,7 @@ const HistoricoAtendimento = () => {
           />
         </div>
         <div className={styles.historico}>
-          <div className={styles.historicoDivImagem}>
-            <img
-              src={bgHistorico}
-              alt="Imagem de fundo"
-              className={styles.historicoImagem}
-            />
+          <div className={styles.historico__imagemIcone}>
             <IconeBrain width="3.75rem" />
           </div>
           <PacienteHistorico
@@ -61,12 +45,7 @@ const HistoricoAtendimento = () => {
           />
         </div>
         <div className={styles.historico}>
-          <div className={styles.historicoDivImagem}>
-            <img
-              src={bgHistorico}
-              alt="Imagem de fundo"
-              className={styles.historicoImagem}
-            />
+          <div className={styles.historico__imagemIcone}>
             <IconeCell width="3.75rem" />
           </div>
           <PacienteHistorico
