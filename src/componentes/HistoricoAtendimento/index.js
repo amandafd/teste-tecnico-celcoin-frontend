@@ -1,8 +1,8 @@
 import styles from "./HistoricoAtendimento.module.css";
-import IconeCell from "../IconeCell";
-import IconeBrain from "../IconeBrain";
 import PacienteHistorico from "../PacienteHistorico";
 import Botao from "../Botao";
+import IconeCell from "../IconeCell";
+import IconeBrain from "../IconeBrain";
 
 const HistoricoAtendimento = () => {
   return (

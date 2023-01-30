@@ -3,13 +3,13 @@
 }
 
 input[type=text] {
-    background: #F5F5F5;
     width: 25rem;
     height: 2.5rem;
+    background: #F5F5F5;
+    padding: 0.5rem;
     border: none;
     border-radius: 0.31rem;
     outline: none;
-    padding: 0.5rem;
     box-sizing: border-box;
 }
 

@@ -1,8 +1,9 @@
 import styles from "./AtualizacoesImportantes.module.css";
+import PacienteAtualicoes from "../PacienteAtualizacoes";
 import Renata from "../../assets/imagens/renata.png";
 import Carlos from "../../assets/imagens/carlos.png";
 import Suelton from "../../assets/imagens/suelton.png";
-import PacienteAtualicoes from "../PacienteAtualizacoes";
+
 
 const AtualizacoesImportantes = () => {
   return (

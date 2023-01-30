@@ -1,6 +1,6 @@
-import CampoBusca from '../CampoBusca';
 import styles from "./BarraSuperior.module.css";
 import { Icon } from '@iconify/react';
+import CampoBusca from '../CampoBusca';
 import fotoFelipe from'../../assets/imagens/felipe.png';
 import squareIcon from '../../assets/imagens/squaresIcon.png';
 

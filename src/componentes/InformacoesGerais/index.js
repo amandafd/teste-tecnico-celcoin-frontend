@@ -1,6 +1,6 @@
-import Informacao from "../Informacao";
 import styles from "./InformacoesGerais.module.css";
 import { Icon } from "@iconify/react";
+import Informacao from "../Informacao";
 
 const InformacoesGerais = () => {
   return (

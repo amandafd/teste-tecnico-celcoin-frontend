@@ -1,19 +1,9 @@
-import { Icon } from '@iconify/react';
 import React from 'react';
 import styles from './IconeBrain.module.css';
-import { useEffect, useRef } from 'react';
+import { Icon } from '@iconify/react';
+
 
 function IconeBrain(props) {
-    const mounted = useRef(false);
-    console.log(this)
-    useEffect(() => {
-        mounted.current = true;
-        
-        return () => {
-            mounted.current = false;
-        };
-    }, []);
-
     return (
         <span>
             <svg className={styles.gradientBrain}>

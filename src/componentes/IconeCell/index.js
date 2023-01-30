@@ -1,6 +1,6 @@
-import { Icon } from "@iconify/react";
 import React from "react";
 import styles from "./IconeCell.module.css";
+import { Icon } from "@iconify/react";
 
 function IconeCell(props) {
   return (
