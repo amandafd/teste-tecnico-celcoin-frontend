@@ -8,17 +8,17 @@ const BarraSuperior = () => {
     return (
         <div className={styles.barra}>
             <CampoBusca />
-            <div className={styles.opcoes}>
-                <Icon icon="material-symbols:settings" className={styles.icone__settings} width="1.25rem"/>
-                <div className={styles.icone__notification}>
-                    <Icon icon="zondicons:notification" className={styles.icone__notificationSino} width="1rem"/>
-                    <Icon icon="material-symbols:circle" className={styles.icone__notificationCirculo} width="0.38rem" />
+            <div className={styles.barra__opcoes}>
+                <Icon icon="material-symbols:settings" className={styles.barra__iconeSettings} width="1.25rem"/>
+                <div className={styles.barra__iconeNotification}>
+                    <Icon icon="zondicons:notification" className={styles.barra__iconeNotificationSino} width="1rem"/>
+                    <Icon icon="material-symbols:circle" className={styles.barra__iconeNotificationCirculo} width="0.38rem" />
                 </div>
-                <div className={styles.olaUsuario}>
-                    <p className={styles.olaUsuarioTexto}>Olá, <span>Felipe</span></p>
-                    <img src={fotoFelipe} alt="Foto do usuário" className={styles.olaUsuarioFoto}/>
+                <div className={styles.barra__olaUsuario}>
+                    <p className={styles.barra__olaUsuarioTexto}>Olá, <span>Felipe</span></p>
+                    <img src={fotoFelipe} alt="Foto do usuário" className={styles.barra__olaUsuarioFoto}/>
                 </div>
-                <img src={squareIcon} alt="Icone quadrado" className={styles.squareIcon} width="1.25rem" />
+                <img src={squareIcon} alt="Icone quadrado" className={styles.barra__squareIcon} width="1.25rem" />
             </div>
             
         </div>
