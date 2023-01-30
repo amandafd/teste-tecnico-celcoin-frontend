@@ -2,13 +2,6 @@
     position: relative;
 }
 
-.campoBusca__input::placeholder {
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1.18rem;
-    color: rgba(44, 46, 61, 0.3);
-}
-
 input[type=text] {
     background: #F5F5F5;
     width: 25rem;
